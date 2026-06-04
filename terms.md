@@ -1,4 +1,4 @@
-# Terms of Service — Light Money Tracker
+# Terms of Service Light Money Tracker
 
 Last updated: June 4, 2026
 

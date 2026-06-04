@@ -1,4 +1,4 @@
-# Privacy Policy — Light Money Tracker
+# Privacy Policy Light Money Tracker
 
 Last updated: June 4, 2026
 
@@ -18,7 +18,7 @@ Contact: lightcuppixlab.dev@gmail.com
   user ID, and Google profile name/photo to authenticate you.
 - **Profile**: an optional nickname and your chosen currency symbol.
 - **Personal financial data**: expenses, income, recurring transactions,
-  and categories you enter. These are your personal finance records —
+  and categories you enter. These are your personal finance records
   not payment card data.
 - **Feedback**: optional ratings and comments you send via "Rate the App",
   stored in our Supabase database.
@@ -40,7 +40,7 @@ You have the right to:
 - **Rectify** inaccurate data.
 - **Erase** your data ("right to be forgotten").
 - **Restrict** processing.
-- **Data portability** — export your data in a machine-readable format.
+- **Data portability** export your data in a machine-readable format.
 - **Object** to processing.
 
 You can exercise most of these rights directly in the app
@@ -69,9 +69,9 @@ and we will process it without undue delay.
 We rely on the following infrastructure providers that process data
 on our behalf as sub-processors:
 
-- **Supabase** — database hosting and authentication.
+- **Supabase** database hosting and authentication.
   Privacy policy: https://supabase.com/privacy
-- **Google** (Google Sign-In, Google Play Billing) — authentication
+- **Google** (Google Sign-In, Google Play Billing)authentication
   and subscription management.
   Privacy policy: https://policies.google.com/privacy
 

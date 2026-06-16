@@ -1,113 +1,85 @@
-# Privacy Policy Light Money Tracker
+# Privacy Policy for Light Money Tracker
 
-Last updated: June 4, 2026
+Last updated: June 16, 2026
 
-Light Money Tracker ("the app") is developed by Light Money Tracker,
-based in Padova, Italy. This policy explains what data we collect, why,
-and how we handle it, in compliance with the EU General Data Protection
-Regulation (GDPR).
+This Privacy Policy explains how Light Money Tracker (the "App") collects, uses, and protects your personal data. It is written to comply with the EU General Data Protection Regulation (GDPR).
 
-## Data Controller
+## 1. Data Controller
 
-Light Money Tracker, Padova, Italy.
+The data controller is Light Cup Pix Lab, Padova, Italy (the studio that develops the App "Light Money Tracker").
+
 Contact: lightcuppixlab.dev@gmail.com
 
-## Data we collect
+## 2. Data We Collect
 
-- **Account**: when you sign in with Google, we collect your email address,
-  user ID, and Google profile name/photo to authenticate you.
-- **Profile**: an optional nickname and your chosen currency symbol.
-- **Personal financial data**: expenses, income, recurring transactions,
-  and categories you enter. These are your personal finance records
-  not payment card data.
-- **Feedback**: optional ratings and comments you send via "Rate the App",
-  stored in our Supabase database.
+We collect only the data needed to run the App.
 
-We do NOT collect: location, contacts, photos, advertising data,
-or any payment card information.
+- Account and identity. You sign in with Google. From the Google sign-in we receive your email address and your Google profile name. The email is stored in our authentication provider (Supabase) and is used to identify your account; your Google profile name is used only temporarily in the App during a session and is not saved to your profile. We do not collect or use your Google profile photo.
+- Profile. An optional nickname that you choose yourself (separate from your Google name) and a currency symbol used only as a display label (no currency conversion is performed).
+- Personal financial data. The expenses and income you record, including amount, date, type (income or expense), optional free-text note, payment method (card, cash, transfer, or other, for expenses), and category. We also store recurring entries (such as a fixed income or a tracked recurring expense, including its name and amount) and an optional monthly budget with an alert threshold.
+- Feedback. Optional ratings (design, features, performance) and an optional free-text comment that you submit through "Rate the App".
+- Reminder settings. If you enable transaction reminders, your reminder preferences are stored only on your device.
 
-## Legal basis for processing (GDPR Art. 6)
+Please note: free-text fields (transaction notes, recurring entry names, personal category names, and feedback comments) are stored as you type them, so please avoid entering sensitive personal details you do not want stored.
 
-- **Performance of a contract**: account authentication and core app
-  features (recording and displaying your financial data).
-- **Consent**: optional feedback you submit via "Rate the App".
-- **Legitimate interest**: improving the app and ensuring security.
+## 3. Data We Do Not Collect
 
-## Your rights (GDPR Art. 15–22)
+We do not collect your location, contacts, photos or camera content, biometric data, advertising identifiers, or device identifiers. We do not use analytics, advertising, crash-reporting, or push-notification (FCM) software. We do not collect or store payment card details or any payment instrument data.
 
-You have the right to:
-- **Access** your personal data.
-- **Rectify** inaccurate data.
-- **Erase** your data ("right to be forgotten").
-- **Restrict** processing.
-- **Data portability** export your data in a machine-readable format.
-- **Object** to processing.
+## 4. Where Your Data Is Stored
 
-You can exercise most of these rights directly in the app
-(Settings → Export my data / Delete account), or by contacting us
-at lightcuppixlab.dev@gmail.com. You also have the right to lodge a
-complaint with your local data protection authority.
+- Server-side data (profile, financial records, categories, recurring entries, budgets, and feedback) is stored in our backend, Supabase. Each user can access only their own data, enforced by database row-level security.
+- Device-only data (reminder preferences and your language choice) stays on your device and is not sent to our servers. A feedback entry may be cached on your device only if it fails to upload; it is sent to Supabase and removed from the device as soon as the connection is restored.
 
-## Cookies and tracking technologies
+## 5. Legal Bases (Art. 6 GDPR)
 
-This app does NOT use cookies, advertising identifiers, analytics SDKs,
-or any third-party tracking technologies. We do not track your activity
-across other apps or websites.
+- Performance of a contract (Art. 6(1)(b)): providing the core expense and income tracking service and managing your account.
+- Consent (Art. 6(1)(a)): submitting optional feedback through "Rate the App".
+- Legitimate interests (Art. 6(1)(f)): keeping the App secure and functioning correctly.
 
-## Data retention and deletion
+## 6. Your Rights (Art. 15-22 GDPR)
 
-When you delete your account from **Settings → Delete account**, all your
-personal data (profile, transactions, recurring transactions, categories,
-and feedback) is permanently and immediately deleted from our database.
+You have the right to access, rectify, erase, restrict, and object to the processing of your data, and the right to data portability.
 
-We retain your data only for as long as your account is active.
-You may also request deletion by contacting lightcuppixlab.dev@gmail.com,
-and we will process it without undue delay.
+- Access and portability. Use Settings, then "Export my data" to receive a copy of your profile, transactions, recurring entries, custom categories, and feedback in JSON (a CSV export of your full transaction history is also available). The export reflects the data held in our database. Your account login email, which is held by our authentication provider, is not included in the file; you can request it from us by email.
+- Erasure. Use Settings, then "Delete account". See "Retention and Deletion" below.
+- Rectification and other rights. Edit your nickname, currency, and entries directly in the App, or contact us at lightcuppixlab.dev@gmail.com. You also have the right to lodge a complaint with your local data protection authority.
 
-## Sub-processors
+## 7. Retention and Deletion
 
-We rely on the following infrastructure providers that process data
-on our behalf as sub-processors:
+We keep your data only while your account is active. There is no separate purge schedule, so your transaction history and feedback are retained until you delete your account.
 
-- **Supabase** database hosting and authentication.
-  Privacy policy: https://supabase.com/privacy
-- **Google** (Google Sign-In, Google Play Billing)authentication
-  and subscription management.
-  Privacy policy: https://policies.google.com/privacy
+When you choose Settings, then "Delete account" (which requires you to confirm by typing the word DELETE), the App deletes your authentication account itself, not just your data rows. This permanently and immediately erases your login identity and, by automatic cascade, your profile and all associated records (transactions, recurring entries, budgets, custom categories, and feedback). This action cannot be undone. You can also request deletion by email.
 
-## International data transfers
+## 8. Sub-processors
 
-Some sub-processors may store data on servers located outside the
-European Union. In such cases, transfers are protected by appropriate
-safeguards such as the European Commission's Standard Contractual
-Clauses (SCCs).
+- Supabase: hosts our database and manages authentication.
+- Google: provides "Sign in with Google" as the identity provider only. Google is not used by the App for advertising or analytics.
 
-## Reminders / notifications
+## 9. Data Location and International Transfers
 
-Reminders are generated and managed locally on your device.
-No notification data is sent to our servers.
+Your data is stored on our backend provider, Supabase, in the European Union (Ireland), so it is held within the European Economic Area (EEA). Sign-in is provided by Google as the identity provider; any limited processing of authentication data by Google that may take place outside the EEA is protected by appropriate safeguards, including the European Commission's Standard Contractual Clauses (SCCs).
 
-## Payments
+## 10. Reminders
 
-Subscriptions are managed by Google Play.
-We never receive or store your payment card data.
+Transaction reminders are generated and managed entirely on your device. No reminder data or notification content is sent to our servers, and the App does not use push notifications.
 
-## Security
+## 11. Payments
 
-Data is transmitted over encrypted connections (HTTPS) and protected
-at the database level with row-level security policies — each user
-can only access their own data.
+The App does not currently offer any paid purchase or subscription. "Premium" features are shown in the interface, and prices may be displayed, but they are marked as not yet available ("Billing coming soon") and cannot be purchased. No payment is taken, and we do not receive or store any payment card or payment instrument data.
 
-## Minors
+## 12. Security
 
-This app is not intended for users under the age of 16.
-We do not knowingly collect data from children under 16.
+We protect your data with encrypted connections (HTTPS only) and database row-level security, so that each account can access only its own data.
 
-## Changes
+## 13. Children
 
-We may update this policy. The date above indicates the last revision.
+The App is not intended for children under 16, and we do not knowingly collect data from them.
 
-## Contact
+## 14. Changes to This Policy
 
-Privacy questions: lightcuppixlab.dev@gmail.com
-Data Controller: Light Money Tracker, Padova, Italy.
+We may update this Privacy Policy from time to time. Material changes will be communicated in the App, and the "Last updated" date above will be revised.
+
+## 15. Contact
+
+For any privacy question or to exercise your rights, contact Light Cup Pix Lab at lightcuppixlab.dev@gmail.com.

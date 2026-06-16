@@ -1,4 +1,4 @@
-# Delete Your Account — Light Money Tracker
+# Delete Your Account Light Money Tracker
 
 **App:** Light Money Tracker  
 **Developer:** Light Cup Pix Lab, Padova, Italy  

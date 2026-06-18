@@ -1,10 +1,10 @@
 # Terms of Service for Light Money Tracker
 
-Last updated: June 16, 2026
+Last updated: June 19, 2026
 
 ## 1. Acceptance of Terms
 
-By using Light Money Tracker (the "App"), you agree to these Terms of Service and to our Privacy Policy. If you do not agree, please do not use the App.
+By using Light Money Tracker (the "App"), you agree to these Terms of Service and to our Privacy Policy. If you do not agree, please do not use the App. These Terms apply to the App on both the Apple App Store (iOS) and Google Play (Android).
 
 ## 2. The Service
 
@@ -12,7 +12,7 @@ The App is a personal tool for tracking your own expenses and income. It is prov
 
 ## 3. Your Account
 
-You sign in with Google. You can manage your data at any time:
+Depending on your platform, you sign in with Apple (on iOS) or with Google (on Android). You can manage your data at any time:
 
 - Delete your account in Settings, then "Delete account". This is immediate and permanent: it erases your login identity together with your profile and all related data, and cannot be undone.
 - Export your data in Settings, then "Privacy & Data", then "Export my data".
@@ -27,7 +27,18 @@ We may suspend or terminate access to the App in the event of a serious or repea
 
 ## 6. Premium Features and Billing
 
-Some features may be presented as "Premium". The App does not currently offer any purchasable subscription or one-time purchase. Any prices shown in the App are informational only and are marked as not yet available ("Billing coming soon"); no charge is taken and no purchase can be completed. If paid subscriptions are introduced in the future, we will update these Terms to describe the pricing, billing provider, renewal, cancellation, and refund terms before any charge is made, and we will obtain your agreement at that time.
+Some features are offered as part of an optional paid subscription called "Pro". The Pro subscription is available as a monthly plan and a yearly plan, and the yearly plan may include an introductory free trial for new subscribers.
+
+Purchases are processed and billed by the Apple App Store (on iOS) or by Google Play (on Android), under their own terms. By subscribing, you agree to the following:
+
+- Prices are shown in the App before you confirm, in your local currency, and may vary by country and over time. Where a free trial is offered, its length and the price that applies afterwards are shown before you confirm.
+- Payment is charged to your Apple ID or Google account when you confirm the purchase.
+- The subscription renews automatically for the same period and at the same price unless you turn off auto-renewal at least 24 hours before the end of the current period. Your account is charged for the renewal within the 24 hours before the end of the current period.
+- You can view, manage, and cancel your subscription, or turn off automatic renewal, at any time in your account settings in the App Store or Google Play. Deleting the App or your in-app account does not cancel the subscription.
+- If a free trial is offered and you do not cancel at least 24 hours before it ends, it converts automatically into a paid subscription at the price shown. Any unused portion of a free trial is forfeited when you purchase a subscription.
+- Except where required by law, payments are non-refundable and we do not provide refunds or credits for partial periods. Refund requests are handled by Apple or Google according to their policies.
+
+We do not receive or store your payment card or any payment instrument data. We receive only your subscription status in order to unlock Premium features, as described in our Privacy Policy.
 
 ## 7. Service Availability and Discontinuation
 
@@ -48,5 +59,3 @@ These Terms are governed by Italian law. If you are a consumer, you continue to 
 ## 11. Contact
 
 For support or questions about these Terms, contact Light Cup Pix Lab at lightcuppixlab.dev@gmail.com.
-
-Developer: Light Cup Pix Lab, Padova, Italy.
